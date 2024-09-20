@@ -102,7 +102,7 @@ function Questions({ setFeedback, answered, setAnswered }) {
                 <h2 className={classes.answered}>Answered: {answered} </h2>
                 <div className="questionAnswer">
                     <h1 className={classes.questionText}>{question.text}</h1>
-                    <form onSubmit={onAnswer}>
+                    <form onSubmit={onAnswer} autoComplete="off">
                         <input type="text" inputMode="numeric" autoFocus id="answerBox" className={classes.answerBox}>
                         </input>
                     </form>
