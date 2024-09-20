@@ -1,0 +1,29 @@
+.feedback {
+    font-weight: bold;
+}
+
+.questionText {
+    font-size: 4rem;
+}
+
+.answered {
+    font-size: 2rem;
+}
+
+.timer {
+    font-size: 2rem;
+}
+
+.answerBox {
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.wrong {
+    color: red;
+}
+
+.right {
+    color: green;
+}
